@@ -1,0 +1,93 @@
+/* import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
+
+
+
+/* css reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* variables  */
+:root {
+    /* color related */
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+    --primary-para-color: rgba(19, 19, 24, 0.70);
+    --secondary-para-color: #5A5A5D;
+
+    /* font size related  */
+    --primary-heading: 2.5rem;
+    --secondary-heading: 1.5rem;
+    --para-font: 1rem;
+
+    /* font weight related  */
+    --small: 300;
+    --normal: 400;
+    --semi-bold: 700;
+    --bolder: 800;
+}
+
+
+
+/* header styles starts here  */
+.header {
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* nav styles  */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.navigation .website-title .website-main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation .website-title .website-main-heading .title-left {
+    color: var(--secondary-color);
+    font-size: 2.3rem;
+    font-weight: var(--bolder);
+}
+
+.navigation .website-title .website-main-heading .title-right {
+    color: var(--primary-color);
+    font-size: 2.3rem;
+    font-weight: var(--bolder);
+}
+
+
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul li{
+    list-style: none;
+    margin-left: 44px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: var(--normal);
+}
+
+
+
+
+
+
+
+/* copyright font family */
+/* font-family: 'Inter', sans-serif; */
