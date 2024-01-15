@@ -36,7 +36,7 @@
 
 /* shared style  */
 
-.btn-primary{
+.btn-primary {
     color: #fff;
     background: var(--primary-color);
     font-size: var(--para-font);
@@ -49,13 +49,13 @@
     border-radius: 8px;
 }
 
-.section-heading{
+.section-heading {
     color: var(--secondary-color);
     font-size: var(--primary-heading);
     font-weight: var(--bolder);
 }
 
-.section-para{
+.section-para {
     color: var(--primary-para-color);
     font-size: var(--para-font);
     font-weight: var(--normal);
@@ -107,10 +107,12 @@
     list-style: none;
     margin-left: 44px;
 }
-.navigation ul li #home-nav-menu{
+
+.navigation ul li #home-nav-menu {
     color: var(--primary-color);
     font-weight: var(--semi-bold);
 }
+
 .navigation ul li a {
     text-decoration: none;
     color: #424247;
@@ -179,49 +181,206 @@
 
 
 /* main styles starts here  */
-main{
+main {
     width: 81%;
     max-width: 1170px;
     margin: 0 auto;
 }
+
 /* popular tour styles starts here  */
-.popular-tours{
+.popular-tours {
     display: flex;
     justify-content: space-between;
     gap: 53px;
     margin-top: 100px;
 }
-.popular-tours .popular-tours-content{
+
+.popular-tours .popular-tours-content {
     width: 50%;
     max-width: 576px;
 }
-.popular-tours .popular-tours-content ul{
+
+.popular-tours .popular-tours-content ul {
     color: var(--secondary-para-color);
     font-size: var(--para-font);
     font-weight: var(--normal);
     line-height: 1.6rem;
     padding-left: 20px;
 }
-.popular-tours .popular-tours-content ul li{
+
+.popular-tours .popular-tours-content ul li {
     max-width: 525px;
     margin-bottom: 16px;
 }
-.popular-tours .popular-tours-content p{
-    margin:24px 0;
+
+.popular-tours .popular-tours-content p {
+    margin: 24px 0;
 }
-.popular-tours .popular-tours-content .last-para{
-    margin-top: 8px;
-}
-.popular-tours .popular-tours-content .btn-primary{
+
+.popular-tours .popular-tours-content .last-para {
     margin-top: 8px;
 }
 
-.popular-tours .popular-tours-image{
+.popular-tours .popular-tours-content .btn-primary {
+    margin-top: 8px;
+}
+
+.popular-tours .popular-tours-image {
     width: 50%;
     max-width: 576px;
     border-radius: 16px;
     background: url(../images/ptours.png) lightgray 50%/cover no-repeat;
 }
+
+
+
+/* destination styles starts here  */
+.destination {
+    margin-top: 100px;
+}
+
+.destination .destination-content {
+    max-width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination .destination-content p {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.destination .destination-collage {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.destination .destination-collage .destiny1 {
+    grid-column: 1/span 6;
+    position: relative;
+}
+
+.destination .destination-collage .destiny1::after {
+    content: "Maldives";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage .destiny2 {
+    grid-column: 7/span 6;
+    position: relative;
+}
+
+.destination .destination-collage .destiny2::after {
+    content: "Indonesia";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage .destiny3 {
+    grid-column: 1/span 4;
+    position: relative;
+}
+
+.destination .destination-collage .destiny3::after {
+    content: "Srilanka";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage .destiny4 {
+    grid-column: 5/span 5;
+    position: relative;
+}
+
+.destination .destination-collage .destiny4::after {
+    content: "North America";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage .destiny5 {
+    grid-column: 10/span 3;
+    position: relative;
+}
+
+.destination .destination-collage .destiny5::after {
+    content: "Kashmir";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage .destiny6 {
+    grid-column: 1/span 5;
+    position: relative;
+}
+
+.destination .destination-collage .destiny6::after {
+    content: "Bangladesh";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage .destiny7 {
+    grid-column: 6/span 7;
+    position: relative;
+}
+
+.destination .destination-collage .destiny7::after {
+    content: "Bandarban";
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: var(--bolder);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.destination .destination-collage img {
+    width: 100%;
+    border-radius: 16px;
+}
+
 
 /* copyright font family */
 /* font-family: 'Inter', sans-serif; */
