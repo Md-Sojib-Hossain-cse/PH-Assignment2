@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <!-- link css  -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <!-- header section starts here  -->
     <header class="header">
@@ -22,17 +24,39 @@
                 </h1>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" id="home-nav-menu">Home</a></li>
                 <li><a href="#">Packages</a></li>
                 <li><a href="#">Testimonial</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- banner starts here  -->
+        <section class="banner">
+                <div class="banner-content">
+                    <h2>Explore Your Travel</h2>
+                    <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim
+                        ac quis sapien urna eu phasellus.</p>
+                    <div class="input-find-now">
+                        <input type="text" name="wherego" id="wherego" placeholder="Where go" class="find-input" >
+                            <select name="when" id="when" class="find-input" >
+                            <option value="" disabled selected hidden>When</option>
+                            <option value="week">This Week</option>
+                        </select>
+                        <select name="placetype" id="placetype" class="find-input">
+                            <option  value="" disabled selected hidden>Type</option>
+                            <option value="beach">Beach</option>
+                        </select>
+                        <button class="btn-primary find-input">Find Now</button>
+                    </div>
+            </div>
+        </section>
     </header>
     <!-- main section starts here  -->
     <main></main>
-        <!-- footer section starts here  -->
+    <!-- footer section starts here  -->
     <footer></footer>
 </body>
+
 </html>
