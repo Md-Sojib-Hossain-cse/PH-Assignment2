@@ -55,7 +55,7 @@
 
 .secondary-heading {
     color: var(--secondary-color);
-    font-weight: 1.5rem;
+    font-weight: var(--secondary-heading);
     font-weight: var(--bolder);
 }
 
@@ -76,6 +76,7 @@
 
 /* nav styles  */
 .navigation {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
@@ -161,6 +162,7 @@
 }
 
 .banner-content .input-find-now {
+    width: 800px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +176,8 @@
     display: inline-block;
     font-size: var(--para-font);
     color: rgba(19, 19, 24, 0.50);
-    width: 174px;
+    width: 21%;
+    max-width: 174px;
     height: 52px;
     border: 0;
     padding: 14px;
@@ -183,8 +186,9 @@
     outline: none;
 }
 
-.banner-content .input-find-now .btn-banner{
-    width: 174px;
+.banner-content .input-find-now .btn-banner {
+    width: 21%;
+    max-width: 174px;
     height: 52px;
 }
 
@@ -459,7 +463,7 @@ main {
 }
 
 .why-choose-us .choose-us-cards .choose-us-card-1 {
-    width: 50%;
+    width: 48%;
     max-width: 573px;
     padding: 32px 55px 32px 32px;
     border-radius: 16px;
@@ -469,7 +473,7 @@ main {
 }
 
 .why-choose-us .choose-us-cards .choose-us-card-2 {
-    width: 50%;
+    width: 48%;
     max-width: 573px;
     padding: 32px 55px 32px 32px;
     border-radius: 16px;
@@ -479,7 +483,7 @@ main {
 }
 
 .why-choose-us .choose-us-cards .choose-us-card-3 {
-    width: 50%;
+    width: 48%;
     max-width: 573px;
     padding: 32px 55px 32px 32px;
     border-radius: 16px;
@@ -547,20 +551,24 @@ main {
     backdrop-filter: blur(2.5px);
     text-align: left;
 }
-.deals .deals-images .deals-images-container-1 .deals-card .location{
+
+.deals .deals-images .deals-images-container-1 .deals-card .location {
     color: var(--secondary-para-color);
     font-size: var(--para-font);
     font-weight: var(--normal);
     margin-bottom: 26px;
 }
-.deals .deals-images .deals-images-container-1 .deals-card h4{
+
+.deals .deals-images .deals-images-container-1 .deals-card h4 {
     margin-bottom: 16px;
 }
-.deals .deals-images .deals-images-container-1 .deals-card .section-para{
+
+.deals .deals-images .deals-images-container-1 .deals-card .section-para {
     margin-bottom: 16px;
     max-width: 552px;
 }
-.deals .deals-images .deals-images-container-1 .deals-card .price{
+
+.deals .deals-images .deals-images-container-1 .deals-card .price {
     margin-bottom: 24px;
     color: var(--primary-color);
     font-size: 1.2rem;
@@ -587,20 +595,24 @@ main {
     backdrop-filter: blur(2.5px);
     text-align: left;
 }
-.deals .deals-images .deals-images-container-2 .deals-card .location{
+
+.deals .deals-images .deals-images-container-2 .deals-card .location {
     color: var(--secondary-para-color);
     font-size: var(--para-font);
     font-weight: var(--normal);
     margin-bottom: 26px;
 }
-.deals .deals-images .deals-images-container-2 .deals-card h4{
+
+.deals .deals-images .deals-images-container-2 .deals-card h4 {
     margin-bottom: 16px;
 }
-.deals .deals-images .deals-images-container-2 .deals-card .section-para{
+
+.deals .deals-images .deals-images-container-2 .deals-card .section-para {
     margin-bottom: 16px;
     max-width: 552px;
 }
-.deals .deals-images .deals-images-container-2 .deals-card .price{
+
+.deals .deals-images .deals-images-container-2 .deals-card .price {
     margin-bottom: 24px;
     color: var(--primary-color);
     font-size: 1.2rem;
@@ -608,7 +620,7 @@ main {
 }
 
 
-.deals .deals-button{
+.deals .deals-button {
     margin-top: 48px;
 }
 
@@ -616,28 +628,32 @@ main {
 
 /* perfect place starts here  */
 
-.perfect-place{
+.perfect-place {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 28px;
     margin-bottom: 100px;
 }
-.perfect-place .place-content{
+
+.perfect-place .place-content {
     width: 50%;
 }
-.perfect-place .place-content h3{
+
+.perfect-place .place-content h3 {
     line-height: 3.8rem;
     max-width: 448px;
     margin-bottom: 24px;
 }
-.perfect-place .place-content ul{
+
+.perfect-place .place-content ul {
     padding-left: 20px;
     margin-top: 24px;
     margin-bottom: 32px;
     max-width: 518px;
 }
-.perfect-place .place-content ul li{
+
+.perfect-place .place-content ul li {
     color: var(--secondary-color);
     font-size: var(--para-font);
     font-weight: var(--semi-bold);
@@ -645,26 +661,27 @@ main {
     margin-bottom: 16px;
 }
 
-.perfect-place .place-video{
+.perfect-place .place-video {
     height: 100%;
     width: 50%;
     position: relative;
 
 }
-.perfect-place .place-video video{
+
+.perfect-place .place-video video {
     width: 100%;
     border-radius: 16px;
 }
 
 
 
-.perfect-place .place-video .text{
+.perfect-place .place-video .text {
     position: absolute;
     max-width: 276px;
     color: #fff;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 1.5rem;
     font-weight: var(--semi-bold);
@@ -675,6 +692,94 @@ main {
 
 
 
+/* newsletter styles  */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.newsletter .news-content {
+    width: 40%;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter .news-content h4 {
+    margin-bottom: 16px;
+    font-size: var(--secondary-heading);
+}
+
+.newsletter .news-content p {
+    max-width: 350px;
+    padding-bottom: 24px;
+
+}
+
+.newsletter .news-content form {
+    padding-top: 24px;
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.newsletter .news-content form input {
+    width: 100%;
+    padding: 16px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.newsletter .news-content form input[type="submit"] {
+    color: #fff;
+    background: #FF5400;
+    font-size: 1.2rem;
+    font-weight: var(--bolder);
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+
+.newsletter .news-image {
+    width: 60%;
+    position: relative;
+    background: url(../images/newsletter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+
+
+.newsletter .news-image .discount {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-30%, -35%) rotate(-19.628deg);
+    width: 48%;
+    height: auto;
+    flex-shrink: 0;
+    background-color: var(--primary-color);
+    padding: 25px 25px;
+    border-radius: 16px;
+}
+
+.newsletter .news-image .discount p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: var(--normal);
+}
+
+.newsletter .news-image .discount .discount-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: var(--bolder);
+}
 
 
 /* copyright font family */
