@@ -1,0 +1,43 @@
+@media screen and (max-width:1080px) {
+    /* nav styles  */
+
+.navigation .website-title .website-main-heading  {
+    font-size: 2rem;
+}
+
+.navigation .website-title .website-main-heading .title-right {
+    font-size: 2rem;
+}
+
+
+.navigation ul li {
+    margin-left: 30px;
+}
+
+
+
+
+/* banner styles  */
+
+
+
+
+.banner-content h2 {
+    font-size: 3.3rem;
+}
+
+.banner-content p {
+    max-width: 600px;
+}
+
+.banner-content .input-find-now {
+    width: 650px;
+}
+
+
+
+.banner-content .input-find-now .btn-banner {
+    width: 24%;
+}
+
+}
