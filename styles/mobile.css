@@ -85,4 +85,33 @@
         left: 30%;
         transform: translate(-40%, -70%);
     }
+
+
+
+
+    /* main styles start here  */
+    main {
+        width: 89%;
+        max-width: 534px;
+        margin: 0 auto;
+    }
+
+    .culture{
+        width: 100%;
+        margin: 24px auto;
+    }
+    .culture .culture-content{
+        width: 80%;
+        max-width: 425px;
+    }
+    .culture .culture-content h3{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+        width: 60%;
+        margin:0 auto;
+    }
+    .culture .culture-content p{
+        font-size: 0.9rem;
+        margin-bottom: 16px;
+    }
 }
