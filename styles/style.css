@@ -123,6 +123,11 @@
     color: #424247;
     font-size: 1.1rem;
     font-weight: var(--normal);
+    transition: 0.5s;
+}
+
+.navigation ul li a:hover{
+    color: #e59168;
 }
 
 
@@ -280,7 +285,7 @@ main {
 }
 
 .popular-tours .popular-tours-content ul {
-    color: var(--secondary-para-color);
+    color: var(--primary-para-color);
     font-size: var(--para-font);
     font-weight: var(--normal);
     line-height: 1.6rem;
@@ -294,6 +299,7 @@ main {
 
 .popular-tours .popular-tours-content p {
     margin: 24px 0;
+    color: var(--primary-para-color);
 }
 
 .popular-tours .popular-tours-content .last-para {
@@ -327,6 +333,7 @@ main {
 .destination .destination-content p {
     margin-top: 24px;
     margin-bottom: 48px;
+    color: var(--primary-para-color);
 }
 
 .destination .destination-collage {
@@ -517,6 +524,7 @@ main {
 
 .why-choose-us .coose-us-content p {
     margin-bottom: 48px;
+    color: var(--primary-para-color);
 }
 
 .why-choose-us .choose-us-cards {
@@ -587,6 +595,7 @@ main {
 
 .deals .deals-content p {
     margin-bottom: 48px;
+    color: var(--primary-para-color);
 }
 
 
@@ -912,7 +921,14 @@ main {
     margin: 0 auto;
     padding-bottom: 110px;
     text-align: center;
+
+}
+
+.footer .copyright small{
     font-family: 'Inter', sans-serif;
+    color: var(--secondary-color);
+    font-size: var(--para-font);
+    font-weight: var(--small);
 }
 
 /* copyright font family */
