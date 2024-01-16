@@ -10,7 +10,12 @@
 
     
     <!-- link css  -->
+
+    <!-- for dextop -->
     <link rel="stylesheet" href="styles/style.css">
+
+    <!-- for mobile  -->
+    <link rel="stylesheet" href="styles/mobile.css">
 
 
     <!-- link font awesome cdn  -->
@@ -24,10 +29,8 @@
     <header class="header">
         <nav class="navigation">
             <div class="website-title">
-                <h1 class="website-main-heading">
-                    <img src="images/website-logo.png" alt="">
-                    <span class="title-left">Wander</span>
-                    <span class="title-right">Vista</span>
+                <h1 class="website-main-heading"><img src="images/website-logo.png" alt="">
+                    Wander <span class="title-right">Vista</span>
                 </h1>
             </div>
             <ul>
@@ -37,6 +40,9 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="three-dot">
+                <img src="images/3dot.png" alt="">
+            </div>
         </nav>
 
         <!-- banner starts here  -->
@@ -61,7 +67,7 @@
                         <option value="beach">Hills</option>
                     </select>
                     <img src="images/icon5.png" alt="" class="arrow2">
-                    <button class="btn-primary btn-banner"><img src="images/icon1.png" alt="">Find Now</button>
+                    <button class="find-input btn-banner"><img src="images/icon1.png" alt="">Find Now</button>
                 </div>
             </div>
         </section>
@@ -73,7 +79,7 @@
 
         <!-- culture section starts here  -->
 
-        <section class="culture">
+        <section class="culture hide">
             <div class="culture-content">
                 <h3 class="section-heading">Explore Different Culture With Us</h3>
                 <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus nisi natus, facere aliquid modi dolor aut consequuntur hic! Eum!</p>
@@ -88,7 +94,7 @@
 
 
         <!-- populer tour section starts here -->
-        <section class="popular-tours">
+        <section class="popular-tours hide">
             <div class="popular-tours-content">
                 <h3 class="section-heading">Our Popular Tours</h3>
                 <p class="section-para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
@@ -112,7 +118,7 @@
 
 
         <!-- choose your destination section starts here  -->
-        <section class="destination">
+        <section class="destination hide">
             <div class="destination-content">
                 <h3 class="section-heading">Choose Your Destination</h3>
                 <p class="section-para">
@@ -142,7 +148,7 @@
 
 
         <!-- why choose us section starts here          -->
-        <section class="why-choose-us">
+        <section class="why-choose-us hide">
             <div class="coose-us-content">
                 <h3 class="section-heading">Why Choose Us</h3>
                 <p class="section-para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
@@ -176,7 +182,7 @@
 
 
         <!-- deals and discount section starts here  -->
-        <section class="deals">
+        <section class="deals hide">
             <div class="deals-content">
                 <h3 class="section-heading">Deals & Discounts</h3>
                 <p class="section-para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
@@ -233,7 +239,7 @@
 
 
         <!-- perfect place starts here  -->
-        <section class="perfect-place">
+        <section class="perfect-place hide">
             <div class="place-content">
                 <h3 class="section-heading">A Simple Perfect Place To Get Lost</h3>
                 <p class="section-para">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
@@ -254,7 +260,7 @@
 
 
         <!-- newsletter section starts here  -->
-        <section class="newsletter">
+        <section class="newsletter hide">
             <div class="news-content">
                 <h4 class="secondary-heading">Newsletter</h4>
                 <p class="section-para">Get your daily dose of travel news & tips. Sign up today!</p>
@@ -273,7 +279,7 @@
         </section>
     </main>
     <!-- footer section starts here  -->
-    <footer class="footer">
+    <footer class="footer hide">
         <div class="footer-content">
             <h5 class="footer-heading">
                 <img src="images/website-logo.png" alt="">
