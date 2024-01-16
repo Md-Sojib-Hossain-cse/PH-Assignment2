@@ -213,4 +213,56 @@
     .destination .destination-collage .destiny7 {
         grid-column: 1/span 12;
     }
+
+
+
+    /* why choose us style  */
+    .why-choose-us .coose-us-content{
+        width: 100%;
+    }
+    .why-choose-us .coose-us-content h3{
+        font-size: 1.2rem;
+    }
+    .why-choose-us .coose-us-content p{
+        margin: 16px auto;
+        font-size: 0.9rem;
+        width: 92%;
+    }
+    .why-choose-us .choose-us-card{
+        flex-direction: column;
+    }
+    .why-choose-us .choose-us-cards .choose-us-card-1 {
+        width: 100%;
+        max-width: 573px;
+        padding: 32px;
+    }
+    .why-choose-us .choose-us-cards .choose-us-card-2 {
+        width: 100%;
+        max-width: 573px;
+        padding: 32px;
+    }
+    .why-choose-us .choose-us-cards .choose-us-card-3 {
+        width: 100%;
+        max-width: 573px;
+        padding: 32px;
+    }
+
+    .why-choose-us .choose-us-cards img{
+        width: 48px;
+    }
+    .why-choose-us .choose-us-cards h4 {
+        font-size: 1.2rem;
+        margin-top: 16px;
+    }
+    .why-choose-us .choose-us-cards p{
+        font-size: 0.9rem;
+        margin-top: 16px;
+    }
+
+
+
+
+
+
+
 }
